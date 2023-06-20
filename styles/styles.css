@@ -93,7 +93,7 @@ form {
 }
 
 .form-container {
-    height: 400px;
+    height: 425px;
     padding-right: 12rem;
     padding-left: 6rem;
     box-shadow: 0 0 15px rgba(0,0,0,0.75);
@@ -103,6 +103,9 @@ form {
 .create-account-container {
     padding-left: 6rem;
     padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .create-account-button {
@@ -110,6 +113,18 @@ form {
     color: white;
     border-radius: 15px;
     border: none;
-    width: 175px;
+    width: 200px;
     height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.log-in-link {
+    text-decoration: none;
+    color: rgb(89,109,72);;
+}
+
+.create-account-container > p {
+    font-size: 16px;
+    font-weight: 500;
 }
