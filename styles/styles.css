@@ -22,15 +22,26 @@ body {
     color: white;
     font-family: "Norse Bold";
     background-color: rgb(0, 0, 0, 50%);
-    font-size: 52px;
+    font-size: 72px;
     margin-left: auto;
     padding: 16px;
     position: relative;
-    top: -700px;
+    top: -800px;
 }
 
 img[src="styles/odin-lined.png"] {
     width: 100px;
+}
+
+.photo-credits {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -325px;
+}
+
+.photo-credits a {
+    color: white;
 }
 
 .left-side-container {
