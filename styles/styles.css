@@ -7,3 +7,15 @@
     margin: 0px;
     padding: 0px;
 }
+
+.odin-logo-container {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Norse Bold";
+    background-color: rgb(0, 0, 0, 50%);
+    font-size: 52px;
+}
