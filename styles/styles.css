@@ -142,3 +142,10 @@ input:invalid {
 input:focus {
     outline: 1px solid rgb(80,117,223);
 }
+
+.password-match-text {
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(196, 64, 64);
+}
