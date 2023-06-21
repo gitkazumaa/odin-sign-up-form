@@ -128,3 +128,17 @@ form {
     font-size: 16px;
     font-weight: 500;
 }
+
+input {
+    border-radius: 3px;
+    border: 0px;
+    padding: 4px 8px;
+}
+
+input:invalid {
+    outline: 1px solid rgb(196, 64, 64);
+}
+
+input:focus {
+    outline: 1px solid rgb(80,117,223);
+}
