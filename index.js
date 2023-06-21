@@ -1,7 +1,7 @@
 const passwordMatch = () => {
     if (document.getElementById("password").value == document.getElementById("confirm_password").value) {
-        console.log("Passwords match!");
+        document.getElementById("password-match-text").style.visibility = "hidden";
     } else {
-        console.log("Passwords do not match!");
+        document.getElementById("password-match-text").style.visibility = "visible";
     }
 }
